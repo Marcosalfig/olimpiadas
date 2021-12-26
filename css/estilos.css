@@ -1,11 +1,16 @@
 .corpo {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
-    padding: 60px;
 }
 
-.cabeçalho__imagem {
-    width: 50%;
+.cabeçalho,
+.curiosidades,
+.rodape {
+    padding: 10px 50px;
+}
+
+.capa__imagem {
+    width: 100%;
 }
 
 .titulo {
