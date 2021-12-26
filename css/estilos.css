@@ -4,14 +4,12 @@
     padding: 60px;
 }
 
-.imagem {}
-
-.imagem--inicial {
+.cabeçalho__imagem {
     width: 50%;
 }
 
 .titulo {
-    color: blue;
+    color: black;
     font-size: 2rem;
     margin: 20px;
     text-align: center;
@@ -20,22 +18,29 @@
 .subtitulo {
     font-size: 1.8rem;
     color: gray;
-    margin: 10px;
+    margin: 15px;
 }
 
-.paragrafo {}
+.paragrafo {
+    text-align: justify;
+}
 
-.tabela {
+.rodape {
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.tabela-coluna {
-    border: 1px solid #000000;
-    padding: 8px 15px;
+.rodape__tabela {
+    background-color: whitesmoke;
 }
 
-.imagem-td {
-    width: 200px;
+.rodape__coluna {
+    border: 1px solid #000000;
+    padding: 16px 30px;
+}
+
+.rodape__imagem {
+    width: 400px;
+    height: 250px;
 }
