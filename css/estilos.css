@@ -1,27 +1,27 @@
 .corpo {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
-}
-
-.cabeçalho,
-.curiosidades,
-.rodape {
-    padding: 10px 50px;
+    font-size: 1.2rem;
 }
 
 .capa__imagem {
     width: 100%;
 }
 
+.cabeçalho,
+.curiosidades,
+.rodape {
+    padding: 10px 20px;
+}
+
 .titulo {
     color: black;
-    font-size: 2rem;
+    font-size: 1.9rem;
     margin: 20px;
     text-align: center;
 }
 
 .subtitulo {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: gray;
     margin: 15px;
 }
@@ -32,17 +32,25 @@
 
 .rodape {
     align-items: center;
+    background-color: #afafaf;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.rodape__tabela {
-    background-color: whitesmoke;
+.rodape__div {
+    width: 90%;
 }
 
-.rodape__coluna {
-    border: 1px solid #000000;
-    padding: 16px 30px;
+.rodape__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rodape__subtitulo {
+    color: white;
 }
 
 .rodape__imagem {
