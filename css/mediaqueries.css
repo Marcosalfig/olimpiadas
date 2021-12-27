@@ -1,6 +1,12 @@
 @media(max-width: 425px) {
+    .cabeçalho,
+    .curiosidades,
+    .rodape {
+        padding: 20px 30px;
+    }
     .subtitulo {
         text-align: center;
+        padding: 20px 20px;
     }
     .rodape {
         align-items: center;
